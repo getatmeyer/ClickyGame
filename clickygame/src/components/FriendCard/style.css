@@ -13,3 +13,11 @@
     -o-background-size: cover;
     background-size: cover; */
   }
+  .img-container {
+    object-fit: cover;
+    display: block;
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+  }
