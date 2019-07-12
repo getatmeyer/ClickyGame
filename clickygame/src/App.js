@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import FriendCard from "./components/FriendCard";
 // import Navbar from "./components/Nav";
-import Wrapper from "./components/Wrapper;"
+import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import butterfly from "./butterfly.json";
 // import Card from "./components/Card";
@@ -32,7 +32,7 @@ class App extends Component {
         <Title>Butterfilies</Title>
         {this.state.butterfly.map(butterfly => (
           <FriendCard
-          clicked={this.clicked}
+          // clicked={this.clicked}
           id={butterfly.id}
           key={butterfly.id}
           image ={butterfly.image}
