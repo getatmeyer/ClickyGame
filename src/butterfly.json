@@ -7,50 +7,50 @@
   },
   {
       "id": 2,
-      "image":  "/images/cheerButterfly.jpg",
+      "image":  "./images/cheerButterfly.jpg",
       "clicked": false
 
   },
   {
       "id": 3,
-      "image": "/images/flawButterfly.jpg",
+      "image": "./images/flawButterfly.jpg",
       "clicked": false
   },
   {
       "id": 4,
-      "image": "/images/jadeButterfly.jpg",
+      "image": "./images/jadeButterfly.jpg",
       "clicked": false
   },
   {
       "id": 5,
-      "image": "/images/mysterioButterfly.jpg",
+      "image": "./images/mysterioButterfly.jpg",
       "clicked": false
   },
     
   {
     "id": 6,
-    "image": "/images/prettyButterfly.jpg",
+    "image": "./images/prettyButterfly.jpg",
     "clicked": false
 },
 {
     "id": 7,
-    "image": "/images/sirenButterfly.jpg",
+    "image": "./images/sirenButterfly.jpg",
     "clicked": false
 },
 {
     "id": 8,
-    "image": "/images/spawnButterfly.jpg",
+    "image": "./images/spawnButterfly.jpg",
     "clicked": false
     
 },
 {
     "id": 9,
-    "image": "/images/speedoButterfly.jpg",
+    "image": "./images/speedoButterfly.jpg",
     "clicked": false
 },
 {
     "id": 10,
-    "image": "/images/spottyButterfly.jpg",
+    "image": "./images/spottyButterfly.jpg",
     "clicked": false
 }
 ]
