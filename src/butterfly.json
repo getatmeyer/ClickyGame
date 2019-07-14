@@ -1,7 +1,7 @@
 [
   {
       "id": 1,
-      "image": "/images/beautyButterfly.jpg",
+      "image": "./images/beautyButterfly.jpg",
       "clicked": false
     
   },
