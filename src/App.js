@@ -78,12 +78,13 @@ handleShuffle = () => {
         rightWrong={this.state.rightWrong}
         />
 
-        <Title>Butterfilies TEST</Title>
-
+        <Title>Butterfilies</Title>
+        
         {this.state.butterfly.map(butterfly => (
           <FriendCard
           key={butterfly.id}
-          handleClick={this.handleClick}
+          // handleClick={this.handleClick}
+          onClick={this.handleClick}
           handleIncrement={this.handleIncrement}
           handleReset={this.handleReset}
           handleShuffle={this.handleShuffle}

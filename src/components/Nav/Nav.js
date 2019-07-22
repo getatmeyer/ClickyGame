@@ -1,8 +1,14 @@
 import React from "react";
 import "./style.css";
 
-function Nav(props) {
-  return <h1 className="nav">{props.children}</h1>;
-}
+const Nav = props => (
+
+        <div className="nav">{props.children}
+        <ul>
+            <li id="current">Current Score: {props.score}</li>
+            <li id="top">Top Score : { props.topScore}</li>
+        </ul>
+        </div>
+);
 
 export default Nav;
