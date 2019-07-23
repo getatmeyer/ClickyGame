@@ -25,6 +25,8 @@ class App extends Component {
   };
 
   handleClick = id => {
+    console.log(id); 
+    
     // let clickedButterflyIds = this.state.clickedButterflyIds;
     if (this.state.clicked.indexOf(id) === -1) {
       this.handleIncrement();
@@ -83,8 +85,8 @@ handleShuffle = () => {
         {this.state.butterfly.map(butterfly => (
           <FriendCard
           key={butterfly.id}
-          // handleClick={this.handleClick}
-          onClick={this.handleClick}
+          handleClick={this.handleClick}
+          // onClick={this.handleClick}
           handleIncrement={this.handleIncrement}
           handleReset={this.handleReset}
           handleShuffle={this.handleShuffle}
